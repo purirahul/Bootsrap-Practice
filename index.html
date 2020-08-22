@@ -360,10 +360,10 @@
     <script>
         $(document).ready(function() {
           $('#mycarousel').carousel({ interval: 2000});
-          $('#carousel-pause').click(function(){
+          $('#mycarousel').mouseenter(function(){
               $('#mycarousel').carousel('pause');
           });
-          $('#carousel-play').click(function(){
+          $('#mycarousel').mouseleave(function(){
               $('#mycarousel').carousel('cycle');
           });
         })
